@@ -1,0 +1,149 @@
+/* email */
+"email.feedback.body" = "Hello Tobias, hello Sebastian,\n\n\n";
+
+/* keychain import controller */
+"keychainSync.keychainImportController.footerNoKeychainInFolder" = "このフォルダにキーチェーンがありません。";
+"keychainSync.keychainImportController.progressHudStatusCanceled" = "キャンセルしました";
+"keychainSync.keychainImportController.progressHudStatusError" = "エラー";
+"keychainSync.keychainImportController.progressHudStatusLoading" = "読み込み中…";
+"keychainSync.keychainImportController.progressHudStatusSuccess" = "成功！";
+"keychainSync.keychainImportController.title" = "インポート";
+"keychainSync.keychainImportController.dropboxSignOut" = "サインアウト";
+
+/* notifications */
+"notifications.clipboardGotCleared" = "クリップボードを消去しました";
+
+/* alerts */
+"ui.alerts.title" = "あれえ！";
+"ui.alerts.dropboxNotReachableAlert.message" = "Dropboxが利用できません。ソーリー！";
+
+/* common texts */
+"ui.common.back" = "戻る";
+"ui.common.cancel" = "キャンセル";
+"ui.common.dismiss" = "閉じる";
+"ui.common.done" = "完了";
+"ui.common.signOut" = "ログオウト";
+"ui.common.yes" = "はい";
+
+/* settingsScreen WebDAV */
+"ui.modalDialogs.settingsWebDAVScreen.title" = "WebDAV";
+
+/* settings search screen */
+"ui.modalDialogs.settingsSearchScreen.title" = "検索";
+
+/* settings auto lock screen */
+"ui.modalDialogs.settingsAutoLockScreen.title" = "オートロック";
+
+/* settings clear clipboard screen */
+"ui.modalDialogs.settingsClearClipboardScreen.title" = "クリップボードを消去";
+
+/* settings screen */
+"ui.modalDialogs.settingsScreen.eraseDataConfirm" = "tooPasswordのデータだけ消去します。1Passwordのキーチェーンが変化しません。続きますか。";
+"ui.modalDialogs.settingsScreen.sectionData.eraseData" = "デーダを消去";
+"ui.modalDialogs.settingsScreen.sectionData.header" = "データ";
+"ui.modalDialogs.settingsScreen.sectionGeneral.header" = "一般";
+"ui.modalDialogs.settingsScreen.sectionGeneral.search" = "検索";
+"ui.modalDialogs.settingsScreen.sectionHelp.header" = "ヘルプ";
+"ui.modalDialogs.settingsScreen.sectionHelp.manual" = "マニュアル";
+"ui.modalDialogs.settingsScreen.sectionHelp.information" = "tooPasswordについて";
+"ui.modalDialogs.settingsScreen.sectionHelp.supportSite" = "サポート・サイト";
+"ui.modalDialogs.settingsScreen.sectionHelp.sendFeedback" = "フィードバックを送信する";
+"ui.modalDialogs.settingsScreen.sectionSecurity.autoLock" = "オートロック";
+"ui.modalDialogs.settingsScreen.sectionSecurity.clearClipboard" = "クリップボードを消去";
+"ui.modalDialogs.settingsScreen.sectionSecurity.concealPasswords" = "パッスワードを隠す";
+"ui.modalDialogs.settingsScreen.sectionSecurity.lockNow" = "今ロックする";
+"ui.modalDialogs.settingsScreen.sectionSecurity.header" = "セキュリティ";
+"ui.modalDialogs.settingsScreen.sectionSupport.header" = "サポート";
+"ui.modalDialogs.settingsScreen.sectionSync.footer" = "最後のインポート";
+"ui.modalDialogs.settingsScreen.sectionSync.header" = "同期";
+"ui.modalDialogs.settingsScreen.sectionSync.importFromDropbox" = "Dropboxからインポート";
+"ui.modalDialogs.settingsScreen.sectionSync.importFromiTunes" = "iTunesからインポート";
+"ui.modalDialogs.settingsScreen.sectionSync.importFromWebDAV" = "WebDAVからインポート";
+"ui.modalDialogs.settingsScreen.title" = "設定";
+
+/* settingsScreen WebDAV */
+"ui.modalDialogs.settingsWebDAVScreen.continue" = "続ける";
+"ui.modalDialogs.settingsWebDAVScreen.url" = "URL";
+"ui.modalDialogs.settingsWebDAVScreen.user" = "ユーザ名";
+"ui.modalDialogs.settingsWebDAVScreen.pass" = "パスワード";
+"ui.modalDialogs.settingsWebDAVScreen.savePass" = "パスワードを保存";
+"ui.modalDialogs.settingsWebDAVScreen.trustAllSSL" = "Trust All (SSL)";
+
+/* settingsScreen searchMode */
+"ui.modalDialogs.settingsScreen.simpleSearch" = "簡単";
+"ui.modalDialogs.settingsScreen.advancedSearch" = "詳細";
+
+/* searchScreen searchMode */
+"ui.modalDialogs.settingsSearchScreen.simpleSearch" = "簡単検索（見出しのみ）";
+"ui.modalDialogs.settingsSearchScreen.advancedSearch" = "詳細検索（全文）";
+
+/* settingsScreen autoLockTimeInterval */
+"ui.modalDialogs.settingsScreen.instantAutoLock" = "すぐに";
+"ui.modalDialogs.settingsScreen.autoLockAfter60s" = "1分";
+"ui.modalDialogs.settingsScreen.autoLockAfter120s" = "3分";
+"ui.modalDialogs.settingsScreen.autoLockAfter300s" = "5分";
+"ui.modalDialogs.settingsScreen.autoLockAfter600s" = "10分";
+
+/* clearClipboardScreen timeInterval */
+"ui.modalDialogs.settingsAutoLockScreen.instantAutoLock" = "すぐに";
+"ui.modalDialogs.settingsAutoLockScreen.autoLockAfter60s" = "1分";
+"ui.modalDialogs.settingsAutoLockScreen.autoLockAfter120s" = "2分";
+"ui.modalDialogs.settingsAutoLockScreen.autoLockAfter300s" = "5分";
+"ui.modalDialogs.settingsAutoLockScreen.autoLockAfter600s" = "10分";
+
+/* settingsScreen clearClipboardTimeInterval */
+"ui.modalDialogs.settingsScreen.clearClipboardAfter30s" = "30秒";
+"ui.modalDialogs.settingsScreen.clearClipboardAfter60s" = "1分";
+"ui.modalDialogs.settingsScreen.clearClipboardAfter120s" = "2分";
+"ui.modalDialogs.settingsScreen.clearClipboardAfter300s" = "5分";
+"ui.modalDialogs.settingsScreen.clearClipboardDisabled" = "決して";
+
+/* clearClipboardScreen timeInterval */
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardAfter30s" = "30秒";
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardAfter60s" = "1分";
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardAfter120s" = "2分";
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardAfter300s" = "5分";
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardDisabled" = "決して消去しない";
+
+/* unlock screen */
+"ui.modalDialogs.unlockScreen.passwordHint" = "パスワードのヒント";
+"ui.modalDialogs.unlockScreen.masterPasswordPlaceholder" = "マスターパスワード";
+"ui.modalDialogs.unlockScreen.unlockButtonTitle" = "ロック解除";
+
+/* welcome screen */
+"ui.modalDialogs.welcomeScreen.help" = "ヘルプ";
+"ui.modalDialogs.welcomeScreen.importFromDropbox" = "Dropboxからインポート";
+"ui.modalDialogs.welcomeScreen.importFromiTunes" = "iTunesからインポート";
+"ui.modalDialogs.welcomeScreen.importFromWebDAV" = "WebDAVからインポート";
+
+/* manual screen */
+"ui.modalDialogs.helpScreen.title" = "マニュアル";
+
+/* info screen */
+"ui.modalDialogs.infoScreen.title" = "バージョン %@ (%@)";
+
+/* password item detail */
+"ui.details.webforms.password" = "パスワード";
+"ui.details.webforms.username" = "ユーザ名";
+"ui.details.webforms.location" = "場所";
+"ui.details.passwords.password" = "パスワード";
+"ui.details.notes" = "ノート";
+
+/* action sheet */
+"ui.details.actionsheet.copy" = "コピー";
+"ui.details.actionsheet.getfullversion" = "Get Full Version";
+"ui.details.actionsheet.hide" = "隠す";
+"ui.details.actionsheet.reveal" = "表す";
+
+/* voice over */
+"voiceOver.button.refresh.label" = "再読込";
+"voiceOver.button.settings.label" = "設定";
+"voiceOver.notification.incorrectPassword" = "パスワードが違います";
+"voiceOver.notification.keychainUnlocked" = "キーチェーンのロックを解除しました";
+
+/* error */
+"error.http.notFound" = "Resource not found.";
+"error.http.authFailed" = "Wrong username and/or password.";
+"error.http.httpStatusCode" = "HTTP error %d.";
+"error.http.unsupportedProtocol" = "Server doesn't seem to be a WebDAV server.";
+"error.http.connectionFailed" = "Connection failed.\nPlease check your settings.";

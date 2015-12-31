@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<link href="style.css" rel="stylesheet" type="text/css"/>
+	<script src="jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script src="jquery.transit-0.9.9.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var didLatestTouchMove = false;
+						 
+		$(document).ready(function() {
+			$('div.toggle').slideUp(0);
+			$('h1.toggle').bind('touchstart', function () {
+				didLatestTouchMove = false;
+				$(this).addClass('touched');
+			});
+			$('h1.toggle').bind('touchmove', function() {
+				didLatestTouchMove = true;
+			});
+			$('h1.toggle').bind('touchend', function () {
+				$(this).removeClass('touched');
+				if (!didLatestTouchMove) {
+					toggle(this);
+				}
+			});
+		});
+		
+		function toggle(h1) {
+			var content = $(h1).next('div.toggle');
+			var arrow = $(h1).find('span');
+			var contentHiddenBeforeToggle = content.is(':hidden');
+			var contentHiddenAfterToggle = !contentHiddenBeforeToggle;
+			content.slideToggle();
+			
+			var arrowRotation = (contentHiddenAfterToggle) ? '0deg' : '90deg';
+			arrow.transition({rotate: arrowRotation});
+		}
+		/* ]]> */
+	</script>
+</head>
+<body>
+	<h1 class="toggle"><span>▷</span>Import 1Password 4 keychain from Dropbox</h1>
+	<div class="toggle">
+		<ol>
+			<li>Ensure that the keychain is stored in Dropbox.
+				<ol style="list-style-type: lower-alpha;">
+					<li>Open up the preferences of 1Password on your Mac.</li>
+					<li>Switch to the 'Sync' tab.</li>
+					<li>Select 'Dropbox' as the storage location for your keychain.</li>
+				</ol>
+			</li>
+			<li>Touch the 'Import from Dropbox' button in tooPassword.</li>
+			<li>Select the 1Password keychain in the directory listing.</li>
+		</ol>
+	</div>
+	
+	<h1 class="toggle"><span>▷</span>Import 1Password 4 keychain from iTunes</h1>
+	<div class="toggle">
+		<ol>
+			<li>Ensure that the keychain is stored in a folder.
+				<ol style="list-style-type: lower-alpha;">
+					<li>Open up the preferences of 1Password on your Mac.</li>
+					<li>Switch to the 'Sync' tab.</li>
+					<li>Select 'Folder' as the storage location for your keychain.</li>
+				</ol>
+			</li>
+			<li>Connect your iOS device with iTunes on your Mac.</li>
+			<li>Open up the synchronization overview in iTunes.</li>
+			<li>Switch to the 'Apps' tab.</li>
+			<li>Down below you will see the 'File Sharing' section.</li>
+			<li>In this section add your keychain to tooPassword.</li>
+			<li>Touch the 'Import from iTunes' button in tooPassword.</li>
+			<li>Select the 1Password keychain in the directory listing.</li>
+		</ol>
+	</div>
+	
+	<h1 class="toggle"><span>▷</span>Import 1Password 4 keychain from WebDAV</h1>
+	<div class="toggle">
+		<ol>
+			<li>Ensure that the keychain is stored in a folder.
+				<ol style="list-style-type: lower-alpha;">
+					<li>Open up the preferences of 1Password on your Mac.</li>
+					<li>Switch to the 'Sync' tab.</li>
+					<li>Select 'Folder' as the storage location for your keychain.</li>
+				</ol>
+			</li>
+			<li>Upload your keychain to your WebDAV server.</li>
+			<li>Touch the 'Import from WebDAV' button in tooPassword.</li>
+			<li>Enter your credentials for your WebDAV server.</li>
+			<li>Select the 1Password keychain in the directory listing.</li>
+		</ol>
+	</div>
+	
+	<h1 class="toggle"><span>▷</span>Import 1Password 3 keychain from Dropbox</h1>
+	<div class="toggle">
+		<ol>
+			<li>Ensure that the keychain is stored in Dropbox.
+				<ol style="list-style-type: lower-alpha;">
+					<li>Open up the preferences of 1Password on your Mac or PC.</li>
+					<li>Switch to the 'General' tab.</li>
+					<li>Press the button to use Dropbox as the storage location for your keychain.</li>
+				</ol>
+			</li>
+			<li>Touch the 'Import from Dropbox' button in tooPassword.</li>
+			<li>Select the 1Password keychain in the directory listing.</li>
+		</ol>
+	</div>
+	
+	<h1 class="toggle"><span>▷</span>Import 1Password 3 keychain from iTunes</h1>
+	<div class="toggle">
+		<ol>
+			<li>Connect your iOS device with iTunes on your Mac or PC.</li>
+			<li>Open up the synchronization overview in iTunes.</li>
+			<li>Switch to the 'Apps' tab.</li>
+			<li>Down below you will see the 'File Sharing' section.</li>
+			<li>In this section add your keychain to tooPassword.</li>
+			<li>Touch the 'Import from iTunes' button in tooPassword.</li>
+			<li>Select the 1Password keychain in the directory listing.</li>
+		</ol>
+	</div>
+	
+	<h1 class="toggle"><span>▷</span>Import 1Password 3 keychain from WebDAV</h1>
+	<div class="toggle">
+		<ol>
+			<li>Upload your keychain to your WebDAV server.</li>
+			<li>Touch the 'Import from WebDAV' button in tooPassword.</li>
+			<li>Enter your credentials for your WebDAV server.</li>
+			<li>Select the 1Password keychain in the directory listing.</li>
+		</ol>
+	</div>
+	
+	<h1 class="toggle"><span>▷</span>How to find your 1Password keychain</h1>
+	<div class="toggle">
+		<p>The 1Password keychain has the filename extension <span class="code">.agilekeychain</span>. The default locations are:</p>
+		<ul>
+			<li><strong>OS X Mac App Store releases:</strong><br /><pre class="code">~/Library/Containers/com.agilebits.onepassword-osx-helper/Data/Documents/</pre></li>
+			<li><strong>OS X AgileBits Online Store releases:</strong><br /><pre class="code">~/Library/Application Support/1Password/</pre></li>
+			<li><strong>Windows XP:</strong><br /><pre class="code">C:\Documents and Settings\your-name\My Documents\1Password\</pre></li>
+			<li><strong>Windows Vista, 7:</strong><br /><pre class="code">C:\Users\your-name\Documents\1Password\</pre></li>
+		</ul>
+		<p>Note: 1Password 4 doesn't store the agilekeychain file in a default location. You have to use the 'Sync' setting in the preferences.</p>
+	</div>
+	
+	<h1 class="toggle"><span>▷</span>iTunes Import using Windows</h1>
+	<div class="toggle">
+		<p>If you want to import the keychain with the PC version of iTunes, it's not possible to import the keychain directly. You have to put the keychain in a zip archive first.</p>
+	</div>
+</body>
+</html>

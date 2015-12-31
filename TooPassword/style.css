@@ -1,0 +1,78 @@
+body {
+	margin: 20px;
+	font-size: 0.95em;
+}
+
+h1, p, ul, ol, pre {
+	font-family: Helvetica;
+	font-weight: lighter;
+	color: #282829;
+	line-height: 160%;
+	margin: 0em;
+}
+
+p {
+	margin-bottom: 0.5em;
+}
+
+h1 {
+	font-size: 120%;
+	letter-spacing: 0.07em;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+h1:first-child {
+	margin-top: 0em;
+}
+
+ul, ol {
+	padding-left: 1.5em;
+}
+
+ul {
+	list-style-position: outside;
+	list-style-type: circle;
+}
+
+.code {
+	font-family: monospace;
+	font-size: 110%;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+/* links */
+
+a {
+	color: #282829;
+	text-decoration: underline;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a.touched {
+	color: #ff851a;
+}
+
+/* toggle stuff */
+
+h1.toggle {
+	margin-left: 1.2em;
+	position: relative;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.touched {
+	color: #ff851a;
+}
+
+h1.toggle > span {
+	display: block;
+	float: left;
+	margin-top:0.2em;
+	margin-left: -1.4em;
+	width: 1.2em;
+	line-height: 1.2em;
+	text-align: center;
+	vertical-align: middle;
+}

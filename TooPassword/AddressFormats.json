@@ -1,0 +1,55 @@
+[
+ 	{"countryCode": "US",
+		"format": {"type": "format", "components": [
+			{"type": "component", "fieldname": "address1"},
+			{"type": "component", "fieldname": "address2", "delimiterBefore": ", "},
+			{"type": "format", "delimiterBefore": ", ", "components": [
+				{"type": "component", "fieldname": "zip"},
+				{"type": "component", "fieldname": "city", "delimiterBefore": " "}
+			]},
+			{"type": "component", "fieldname": "country", "delimiterBefore": ", "}
+		]}
+	},
+	{"countryCode": "DE",
+		"format": {"type": "format", "components": [
+			{"type": "component", "fieldname": "address1"},
+			{"type": "component", "fieldname": "address2", "delimiterBefore": ", "},
+			{"type": "format", "delimiterBefore": ", ", "components": [
+				{"type": "component", "fieldname": "zip"},
+				{"type": "component", "fieldname": "city", "delimiterBefore": " "}
+			]},
+			{"type": "component", "fieldname": "country", "delimiterBefore": ", "}
+		]}
+	},
+	{"countryCode": "JP",
+		"format": {"type": "format", "components": [
+			{"type": "component", "fieldname": "country"},
+			{"type": "component", "fieldname": "zip"},
+			{"type": "component", "fieldname": "city"},
+			{"type": "component", "fieldname": "address1"},
+			{"type": "component", "fieldname": "address2"}
+		]}
+	},
+	{"countryCode": "ES",
+		"format": {"type": "format", "components": [
+			{"type": "component", "fieldname": "address1"},
+			{"type": "component", "fieldname": "address2", "delimiterBefore": ", "},
+			{"type": "format", "delimiterBefore": ", ", "components": [
+				{"type": "component", "fieldname": "zip"},
+				{"type": "component", "fieldname": "city", "delimiterBefore": " "}
+			]},
+			{"type": "component", "fieldname": "country", "delimiterBefore": ", "}
+		]}
+	},
+	{"countryCode": "FI",
+		"format": {"type": "format", "components": [
+			{"type": "component", "fieldname": "address1"},
+			{"type": "component", "fieldname": "address2", "delimiterBefore": ", "},
+			{"type": "format", "delimiterBefore": ", ", "components": [
+				{"type": "component", "fieldname": "zip"},
+				{"type": "component", "fieldname": "city", "delimiterBefore": " "}
+			]},
+			{"type": "component", "fieldname": "country", "delimiterBefore": ", "}
+		]}
+	}
+]

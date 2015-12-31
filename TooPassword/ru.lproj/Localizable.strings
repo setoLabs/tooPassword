@@ -1,0 +1,149 @@
+/* email */
+"email.feedback.body" = "Hello Tobias, hello Sebastian,\n\n\n";
+
+/* keychain import controller */
+"keychainSync.keychainImportController.footerNoKeychainInFolder" = "Нет связки ключей в этой папке.";
+"keychainSync.keychainImportController.progressHudStatusCanceled" = "Прервано";
+"keychainSync.keychainImportController.progressHudStatusError" = "Ошибка";
+"keychainSync.keychainImportController.progressHudStatusLoading" = "Загрузка...";
+"keychainSync.keychainImportController.progressHudStatusSuccess" = "Успех!";
+"keychainSync.keychainImportController.title" = "Импорт";
+"keychainSync.keychainImportController.dropboxSignOut" = "Выйти";
+
+/* notifications */
+"notifications.clipboardGotCleared" = "Буфер обмена очищается..";
+
+/* alerts */
+"ui.alerts.title" = "Опа!";
+"ui.alerts.dropboxNotReachableAlert.message" = "Похоже, Dropbox не доступен! Sorry!";
+
+/* common texts */
+"ui.common.back" = "Назад";
+"ui.common.cancel" = "Прервать";
+"ui.common.dismiss" = "Закрывать";
+"ui.common.done" = "Готово";
+"ui.common.signOut" = "Выход";
+"ui.common.yes" = "Да";
+
+/* settingsScreen WebDAV */
+"ui.modalDialogs.settingsWebDAVScreen.title" = "WebDAV";
+
+/* settings search screen */
+"ui.modalDialogs.settingsSearchScreen.title" = "Поиск";
+
+/* settings auto lock screen */
+"ui.modalDialogs.settingsAutoLockScreen.title" = "Блокировать автоматически";
+
+/* settings clear clipboard screen */
+"ui.modalDialogs.settingsClearClipboardScreen.title" = "Отчистить буфер обмена";
+
+/* settings screen */
+"ui.modalDialogs.settingsScreen.eraseDataConfirm" = "Удаляются только данные на tooPassword. Ваш оригинал Связки Ключей сохраняется. Продолжить?";
+"ui.modalDialogs.settingsScreen.sectionData.eraseData" = "Удалить данные";
+"ui.modalDialogs.settingsScreen.sectionData.header" = "Данные";
+"ui.modalDialogs.settingsScreen.sectionGeneral.header" = "Общее";
+"ui.modalDialogs.settingsScreen.sectionGeneral.search" = "Поиск";
+"ui.modalDialogs.settingsScreen.sectionHelp.header" = "Помощь";
+"ui.modalDialogs.settingsScreen.sectionHelp.manual" = "Инструкция";
+"ui.modalDialogs.settingsScreen.sectionHelp.information" = "О tooPassword";
+"ui.modalDialogs.settingsScreen.sectionHelp.supportSite" = "Поддержка";
+"ui.modalDialogs.settingsScreen.sectionHelp.sendFeedback" = "Отправить отзыв";
+"ui.modalDialogs.settingsScreen.sectionSecurity.autoLock" = "Блокировать автоматически";
+"ui.modalDialogs.settingsScreen.sectionSecurity.clearClipboard" = "Очистить буфер обмена";
+"ui.modalDialogs.settingsScreen.sectionSecurity.concealPasswords" = "Спрятать пароли";
+"ui.modalDialogs.settingsScreen.sectionSecurity.lockNow" = "Блокировать сейчас";
+"ui.modalDialogs.settingsScreen.sectionSecurity.header" = "Безопасность";
+"ui.modalDialogs.settingsScreen.sectionSupport.header" = "Поддержка";
+"ui.modalDialogs.settingsScreen.sectionSync.footer" = "Последний импорт";
+"ui.modalDialogs.settingsScreen.sectionSync.header" = "Синхронизация";
+"ui.modalDialogs.settingsScreen.sectionSync.importFromDropbox" = "Импортировать из Dropbox";
+"ui.modalDialogs.settingsScreen.sectionSync.importFromiTunes" = "Импортировать из iTunes";
+"ui.modalDialogs.settingsScreen.sectionSync.importFromWebDAV" = "Импортировать из WebDAV";
+"ui.modalDialogs.settingsScreen.title" = "Настройки";
+
+/* settingsScreen WebDAV */
+"ui.modalDialogs.settingsWebDAVScreen.continue" = "Продолжить";
+"ui.modalDialogs.settingsWebDAVScreen.url" = "URL";
+"ui.modalDialogs.settingsWebDAVScreen.user" = "Имя пользователя";
+"ui.modalDialogs.settingsWebDAVScreen.pass" = "Пароль";
+"ui.modalDialogs.settingsWebDAVScreen.savePass" = "Сохранить пароль";
+"ui.modalDialogs.settingsWebDAVScreen.trustAllSSL" = "Trust All (SSL)";
+
+/* settingsScreen searchMode */
+"ui.modalDialogs.settingsScreen.simpleSearch" = "Просто";
+"ui.modalDialogs.settingsScreen.advancedSearch" = "Далее";
+
+/* searchScreen searchMode */
+"ui.modalDialogs.settingsSearchScreen.simpleSearch" = "Простой поиск (Только название)";
+"ui.modalDialogs.settingsSearchScreen.advancedSearch" = "Расширенный поиск (полный текст)";
+
+/* settingsScreen autoLockTimeInterval */
+"ui.modalDialogs.settingsScreen.instantAutoLock" = "Сразу";
+"ui.modalDialogs.settingsScreen.autoLockAfter60s" = "1 мин";
+"ui.modalDialogs.settingsScreen.autoLockAfter120s" = "2 мин";
+"ui.modalDialogs.settingsScreen.autoLockAfter300s" = "5 мин";
+"ui.modalDialogs.settingsScreen.autoLockAfter600s" = "10 мин";
+
+/* clearClipboardScreen timeInterval */
+"ui.modalDialogs.settingsAutoLockScreen.instantAutoLock" = "Поддержка";
+"ui.modalDialogs.settingsAutoLockScreen.autoLockAfter60s" = "1 минута";
+"ui.modalDialogs.settingsAutoLockScreen.autoLockAfter120s" = "2 минуты";
+"ui.modalDialogs.settingsAutoLockScreen.autoLockAfter300s" = "5 минут";
+"ui.modalDialogs.settingsAutoLockScreen.autoLockAfter600s" = "10 минут";
+
+/* settingsScreen clearClipboardTimeInterval */
+"ui.modalDialogs.settingsScreen.clearClipboardAfter30s" = "30 сек";
+"ui.modalDialogs.settingsScreen.clearClipboardAfter60s" = "1 мин";
+"ui.modalDialogs.settingsScreen.clearClipboardAfter120s" = "2 мин";
+"ui.modalDialogs.settingsScreen.clearClipboardAfter300s" = "5 мин";
+"ui.modalDialogs.settingsScreen.clearClipboardDisabled" = "Никогда";
+
+/* clearClipboardScreen timeInterval */
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardAfter30s" = "30 секунд";
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardAfter60s" = "1 минута";
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardAfter120s" = "2 минуты";
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardAfter300s" = "5 минут";
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardDisabled" = "Никогда";
+
+/* unlock screen */
+"ui.modalDialogs.unlockScreen.passwordHint" = "Указание пароля";
+"ui.modalDialogs.unlockScreen.masterPasswordPlaceholder" = "Мастер-пароль";
+"ui.modalDialogs.unlockScreen.unlockButtonTitle" = "Разблокировать";
+
+/* welcome screen */
+"ui.modalDialogs.welcomeScreen.help" = "Помощь";
+"ui.modalDialogs.welcomeScreen.importFromDropbox" = "Импортировать из Dropbox";
+"ui.modalDialogs.welcomeScreen.importFromiTunes" = "Импортировать из iTunes";
+"ui.modalDialogs.welcomeScreen.importFromWebDAV" = "Импортировать из WebDAV";
+
+/* manual screen */
+"ui.modalDialogs.helpScreen.title" = "Инструкция";
+
+/* info screen */
+"ui.modalDialogs.infoScreen.title" = "Версия %@ (%@)";
+
+/* password item detail */
+"ui.details.webforms.password" = "Пароль";
+"ui.details.webforms.username" = "Имя пользователя";
+"ui.details.webforms.location" = "URL";
+"ui.details.passwords.password" = "Пароль";
+"ui.details.notes" = "Примечания";
+
+/* action sheet */
+"ui.details.actionsheet.copy" = "Копировать";
+"ui.details.actionsheet.getfullversion" = "Get Full Version";
+"ui.details.actionsheet.hide" = "Скрыть";
+"ui.details.actionsheet.reveal" = "Показать";
+
+/* voice over */
+"voiceOver.button.refresh.label" = "Обновить";
+"voiceOver.button.settings.label" = "Настройки";
+"voiceOver.notification.incorrectPassword" = "Неверный Пароль";
+"voiceOver.notification.keychainUnlocked" = "Брелок разблокирована";
+
+/* error */
+"error.http.notFound" = "Resource not found.";
+"error.http.authFailed" = "Wrong username and/or password.";
+"error.http.httpStatusCode" = "HTTP error %d.";
+"error.http.unsupportedProtocol" = "Server doesn't seem to be a WebDAV server.";
+"error.http.connectionFailed" = "Connection failed.\nPlease check your settings.";

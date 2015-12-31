@@ -1,0 +1,149 @@
+/* email */
+"email.feedback.body" = "Hello Tobias, hello Sebastian,\n\n\n";
+
+/* keychain import controller */
+"keychainSync.keychainImportController.footerNoKeychainInFolder" = "No manojo de llaves en esto archivador.";
+"keychainSync.keychainImportController.progressHudStatusCanceled" = "Cancelado";
+"keychainSync.keychainImportController.progressHudStatusError" = "Fallado";
+"keychainSync.keychainImportController.progressHudStatusLoading" = "Carga...";
+"keychainSync.keychainImportController.progressHudStatusSuccess" = "Éxito!";
+"keychainSync.keychainImportController.title" = "Importación";
+"keychainSync.keychainImportController.dropboxSignOut" = "Cerrar sesión";
+
+/* notifications */
+"notifications.clipboardGotCleared" = "La memoria temporal se ha vaciado.";
+
+/* alerts */
+"ui.alerts.title" = "¡eh!";
+"ui.alerts.dropboxNotReachableAlert.message" = "Dropbox no parece disponible. Sorry!";
+
+/* common texts */
+"ui.common.back" = "De vuelta";
+"ui.common.cancel" = "Cancelar";
+"ui.common.dismiss" = "Cerrar";
+"ui.common.done" = "¡Ya está!";
+"ui.common.signOut" = "Desconectar";
+"ui.common.yes" = "Sí";
+
+/* settingsScreen WebDAV */
+"ui.modalDialogs.settingsWebDAVScreen.title" = "WebDAV";
+
+/* settings search screen */
+"ui.modalDialogs.settingsSearchScreen.title" = "Búsqueda";
+
+/* settings auto lock screen */
+"ui.modalDialogs.settingsAutoLockScreen.title" = "Bloqueo automático";
+
+/* settings clear clipboard screen */
+"ui.modalDialogs.settingsClearClipboardScreen.title" = "Vaciar el portapapeles";
+
+/* settings screen */
+"ui.modalDialogs.settingsScreen.eraseDataConfirm" = "Los datos eran borrado solamente en tooPassword. Su original de su manojo de llaves en 1Password resta intacto. ¿Quiere usted continuar?";
+"ui.modalDialogs.settingsScreen.sectionData.eraseData" = "Borrar datos";
+"ui.modalDialogs.settingsScreen.sectionData.header" = "Datos";
+"ui.modalDialogs.settingsScreen.sectionGeneral.header" = "General";
+"ui.modalDialogs.settingsScreen.sectionGeneral.search" = "Búsqueda";
+"ui.modalDialogs.settingsScreen.sectionHelp.header" = "Ayuda";
+"ui.modalDialogs.settingsScreen.sectionHelp.manual" = "Instrucciones";
+"ui.modalDialogs.settingsScreen.sectionHelp.information" = "Sobre tooPassword";
+"ui.modalDialogs.settingsScreen.sectionHelp.supportSite" = "Sitio de asistencia";
+"ui.modalDialogs.settingsScreen.sectionHelp.sendFeedback" = "Enviar feedback";
+"ui.modalDialogs.settingsScreen.sectionSecurity.autoLock" = "Bloqueo automático";
+"ui.modalDialogs.settingsScreen.sectionSecurity.clearClipboard" = "Vaciar el portapapeles";
+"ui.modalDialogs.settingsScreen.sectionSecurity.concealPasswords" = "Esconder contraseñas";
+"ui.modalDialogs.settingsScreen.sectionSecurity.lockNow" = "Bloquee ahora";
+"ui.modalDialogs.settingsScreen.sectionSecurity.header" = "Seguridad";
+"ui.modalDialogs.settingsScreen.sectionSupport.header" = "Asistencia";
+"ui.modalDialogs.settingsScreen.sectionSync.footer" = "Último importación";
+"ui.modalDialogs.settingsScreen.sectionSync.header" = "Sincronización";
+"ui.modalDialogs.settingsScreen.sectionSync.importFromDropbox" = "Importar de Dropbox";
+"ui.modalDialogs.settingsScreen.sectionSync.importFromiTunes" = "Importar de iTunes";
+"ui.modalDialogs.settingsScreen.sectionSync.importFromWebDAV" = "Importar de WebDAV";
+"ui.modalDialogs.settingsScreen.title" = "Ajustes";
+
+/* settingsScreen WebDAV */
+"ui.modalDialogs.settingsWebDAVScreen.continue" = "Continuar";
+"ui.modalDialogs.settingsWebDAVScreen.url" = "URL";
+"ui.modalDialogs.settingsWebDAVScreen.user" = "Nombre del usuario";
+"ui.modalDialogs.settingsWebDAVScreen.pass" = "Contraseña";
+"ui.modalDialogs.settingsWebDAVScreen.savePass" = "Guardar contraseña";
+"ui.modalDialogs.settingsWebDAVScreen.trustAllSSL" = "Trust All (SSL)";
+
+/* settingsScreen searchMode */
+"ui.modalDialogs.settingsScreen.simpleSearch" = "Simple";
+"ui.modalDialogs.settingsScreen.advancedSearch" = "Ampliado";
+
+/* searchScreen searchMode */
+"ui.modalDialogs.settingsSearchScreen.simpleSearch" = "Búsqueda simple (sólo titulo)";
+"ui.modalDialogs.settingsSearchScreen.advancedSearch" = "Búsqueda ampliada (en el documento entero)";
+
+/* settingsScreen autoLockTimeInterval */
+"ui.modalDialogs.settingsScreen.instantAutoLock" = "Ahora";
+"ui.modalDialogs.settingsScreen.autoLockAfter60s" = "1 min";
+"ui.modalDialogs.settingsScreen.autoLockAfter120s" = "2 min";
+"ui.modalDialogs.settingsScreen.autoLockAfter300s" = "5 min";
+"ui.modalDialogs.settingsScreen.autoLockAfter600s" = "10 min";
+
+/* clearClipboardScreen timeInterval */
+"ui.modalDialogs.settingsAutoLockScreen.instantAutoLock" = "De inmediato";
+"ui.modalDialogs.settingsAutoLockScreen.autoLockAfter60s" = "1 minuto";
+"ui.modalDialogs.settingsAutoLockScreen.autoLockAfter120s" = "2 minutos";
+"ui.modalDialogs.settingsAutoLockScreen.autoLockAfter300s" = "5 minutos";
+"ui.modalDialogs.settingsAutoLockScreen.autoLockAfter600s" = "10 minutos";
+
+/* settingsScreen clearClipboardTimeInterval */
+"ui.modalDialogs.settingsScreen.clearClipboardAfter30s" = "30 seg";
+"ui.modalDialogs.settingsScreen.clearClipboardAfter60s" = "1 min";
+"ui.modalDialogs.settingsScreen.clearClipboardAfter120s" = "2 min";
+"ui.modalDialogs.settingsScreen.clearClipboardAfter300s" = "5 min";
+"ui.modalDialogs.settingsScreen.clearClipboardDisabled" = "Nunca";
+
+/* clearClipboardScreen timeInterval */
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardAfter30s" = "30 segundos";
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardAfter60s" = "1 minuto";
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardAfter120s" = "2 minutos";
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardAfter300s" = "5 minutos";
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardDisabled" = "Nunca";
+
+/* unlock screen */
+"ui.modalDialogs.unlockScreen.passwordHint" = "Nota de contraseña";
+"ui.modalDialogs.unlockScreen.masterPasswordPlaceholder" = "Contraseña principal";
+"ui.modalDialogs.unlockScreen.unlockButtonTitle" = "Descongelar";
+
+/* welcome screen */
+"ui.modalDialogs.welcomeScreen.help" = "Ayuda";
+"ui.modalDialogs.welcomeScreen.importFromDropbox" = "Importar de Dropbox";
+"ui.modalDialogs.welcomeScreen.importFromiTunes" = "Importar de iTunes";
+"ui.modalDialogs.welcomeScreen.importFromWebDAV" = "Importar de WebDAV";
+
+/* manual screen */
+"ui.modalDialogs.helpScreen.title" = "Instrucción";
+
+/* info screen */
+"ui.modalDialogs.infoScreen.title" = "Versión %@ (%@)";
+
+/* password item detail */
+"ui.details.webforms.password" = "Contraseña";
+"ui.details.webforms.username" = "Nombre del usuario";
+"ui.details.webforms.location" = "URL";
+"ui.details.passwords.password" = "Contraseña";
+"ui.details.notes" = "Noticia";
+
+/* action sheet */
+"ui.details.actionsheet.copy" = "Copiar";
+"ui.details.actionsheet.getfullversion" = "Get Full Version";
+"ui.details.actionsheet.hide" = "Ocultar";
+"ui.details.actionsheet.reveal" = "Indicar";
+
+/* voice over */
+"voiceOver.button.refresh.label" = "Refrescar";
+"voiceOver.button.settings.label" = "Ajustes";
+"voiceOver.notification.incorrectPassword" = "Contraseña incorrecta";
+"voiceOver.notification.keychainUnlocked" = "Llavero desbloqueado";
+
+/* error */
+"error.http.notFound" = "Resource not found.";
+"error.http.authFailed" = "Wrong username and/or password.";
+"error.http.httpStatusCode" = "HTTP error %d.";
+"error.http.unsupportedProtocol" = "Server doesn't seem to be a WebDAV server.";
+"error.http.connectionFailed" = "Connection failed.\nPlease check your settings.";

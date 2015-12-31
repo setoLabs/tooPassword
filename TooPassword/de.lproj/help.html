@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<link href="style.css" rel="stylesheet" type="text/css"/>
+	<script src="jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script src="jquery.transit-0.9.9.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var didLatestTouchMove = false;
+		
+		$(document).ready(function() {
+			$('div.toggle').slideUp(0);
+			$('h1.toggle').bind('touchstart', function () {
+				didLatestTouchMove = false;
+				$(this).addClass('touched');
+			});
+			$('h1.toggle').bind('touchmove', function() {
+				didLatestTouchMove = true;
+			});
+			$('h1.toggle').bind('touchend', function () {
+				$(this).removeClass('touched');
+				if (!didLatestTouchMove) {
+					toggle(this);
+				}
+			});
+		});
+
+		function toggle(h1) {
+			var content = $(h1).next('div.toggle');
+			var arrow = $(h1).find('span');
+			var contentHiddenBeforeToggle = content.is(':hidden');
+			var contentHiddenAfterToggle = !contentHiddenBeforeToggle;
+			content.slideToggle();
+			
+			var arrowRotation = (contentHiddenAfterToggle) ? '0deg' : '90deg';
+			arrow.transition({rotate: arrowRotation});
+		}
+		/* ]]> */
+	</script>
+</head>
+<body>
+	<h1 class="toggle"><span>▷</span>Wie man den 1Password 4-Schlüsselbund aus Dropbox importiert</h1>
+	<div class="toggle">
+		<ol>
+			<li>Sicherstellen, dass der 1Password-Schlüsselbund in Dropbox liegt.
+				<ol style="list-style-type: lower-alpha;">
+					<li>1Password-Einstellungen auf dem Mac öffnen.</li>
+					<li>Kategorie 'Sync' auswählen.</li>
+					<li>'Dropbox' als Ablageort für den Schlüsselbund auswählen.</li>
+				</ol>
+			</li>
+			<li>Schaltfläche 'Aus Dropbox importieren' in tooPassword berühren.</li>
+			<li>1Password-Schlüsselbund in der Verzeichnisliste auswählen.</li>
+		</ol>
+	</div>
+	
+	<h1 class="toggle"><span>▷</span>Wie man den 1Password 4-Schlüsselbund aus iTunes importiert</h1>
+	<div class="toggle">
+		<ol>
+			<li>Sicherstellen, dass der 1Password-Schlüsselbund in einem Ordner liegt.
+				<ol style="list-style-type: lower-alpha;">
+					<li>1Password-Einstellungen auf dem Mac öffnen.</li>
+					<li>Kategorie 'Sync' auswählen.</li>
+					<li>'Ordner' als Ablageort für den Schlüsselbund auswählen.</li>
+				</ol>
+			</li>
+			<li>Das iOS-Gerät mit iTunes auf dem Mac verbinden.</li>
+			<li>Synchronisationsübersicht in iTunes öffnen.</li>
+			<li>Kategorie 'Apps' auswählen.</li>
+			<li>Unten befindet sich die Sektion 'Dateifreigabe'.</li>
+			<li>In dieser Sektion lässt sich die Schlüsselbund-Datei zu tooPassword hinzufügen.</li>
+			<li>Schaltfläche 'Aus iTunes importieren' in tooPassword berühren.</li>
+			<li>1Password-Schlüsselbund in der Verzeichnisliste auswählen.</li>
+		</ol>
+	</div>
+	
+	<h1 class="toggle"><span>▷</span>Wie man den 1Password 4-Schlüsselbund aus WebDAV importiert</h1>
+	<div class="toggle">
+		<ol>
+			<li>Sicherstellen, dass der 1Password-Schlüsselbund in einem Ordner liegt.
+				<ol style="list-style-type: lower-alpha;">
+					<li>1Password-Einstellungen auf dem Mac öffnen.</li>
+					<li>Kategorie 'Sync' auswählen.</li>
+					<li>'Ordner' als Ablageort für den Schlüsselbund auswählen.</li>
+				</ol>
+			</li>
+			<li>Die Schlüsselbund-Datei auf den gewünschten WebDAV-Server hochladen.</li>
+			<li>Schaltfläche 'Aus WebDAV importieren' in tooPassword berühren.</li>
+			<li>Zugangsdaten für den WebDAV-Server eingeben.</li>
+			<li>1Password-Schlüsselbund in der Verzeichnisliste auswählen.</li>
+		</ol>
+	</div>
+	
+	<h1 class="toggle"><span>▷</span>Wie man den 1Password 3-Schlüsselbund aus Dropbox importiert</h1>
+	<div class="toggle">
+		<ol>
+			<li>Sicherstellen, dass der 1Password-Schlüsselbund in Dropbox liegt.
+				<ol style="list-style-type: lower-alpha;">
+					<li>1Password-Einstellungen auf dem Mac oder PC öffnen.</li>
+					<li>Kategorie 'Allgemein' auswählen.</li>
+					<li>Auf den Button klicken, um Dropbox als Ablageort für den Schlüsselbund zu nutzen.</li>
+				</ol>
+			</li>
+			<li>Schaltfläche 'Aus Dropbox importieren' in tooPassword berühren.</li>
+			<li>1Password-Schlüsselbund in der Verzeichnisliste auswählen.</li>
+		</ol>
+	</div>
+	
+	<h1 class="toggle"><span>▷</span>Wie man den 1Password 3-Schlüsselbund aus iTunes importiert</h1>
+	<div class="toggle">
+		<ol>
+			<li>Das iOS-Gerät mit iTunes auf dem Mac oder PC verbinden.</li>
+			<li>Synchronisationsübersicht in iTunes öffnen.</li>
+			<li>Kategorie 'Apps' auswählen.</li>
+			<li>Unten befindet sich die Sektion 'Dateifreigabe'.</li>
+			<li>In dieser Sektion lässt sich die Schlüsselbund-Datei zu tooPassword hinzufügen.</li>
+			<li>Schaltfläche 'Aus iTunes importieren' in tooPassword berühren.</li>
+			<li>1Password-Schlüsselbund in der Verzeichnisliste auswählen.</li>
+		</ol>
+	</div>
+	
+	<h1 class="toggle"><span>▷</span>Wie man den 1Password 3-Schlüsselbund aus WebDAV importiert</h1>
+	<div class="toggle">
+		<ol>
+			<li>Die Schlüsselbund-Datei auf den gewünschten WebDAV-Server hochladen.</li>
+			<li>Schaltfläche 'Aus WebDAV importieren' in tooPassword berühren.</li>
+			<li>Zugangsdaten für den WebDAV-Server eingeben.</li>
+			<li>1Password-Schlüsselbund in der Verzeichnisliste auswählen.</li>
+		</ol>
+	</div>
+	
+	<h1 class="toggle"><span>▷</span>Wie man den 1Password-Schlüsselbund findet</h1>
+	<div class="toggle">
+		<p>Der 1Password-Schlüsselbund hat die Dateiendung <span class="code">.agilekeychain</span>. Er befindet sich standardmäßig hier:</p>
+		<ul>
+			<li><strong>OS X Mac App Store Version:</strong><br /><pre class="code">~/Library/Containers/com.agilebits.onepassword-osx-helper/Data/Documents/</pre></li>
+			<li><strong>OS X AgileBits Online Store Version:</strong><br /><pre class="code">~/Library/Application Support/1Password/</pre></li>
+			<li><strong>Windows XP:</strong><br /><pre class="code">C:\Dokumente und Einstellungen\dein-name\Eigene Dateien\1Password\</pre></li>
+			<li><strong>Windows Vista, 7:</strong><br /><pre class="code">C:\Benutzer\dein-name\Eigene Dokumente\1Password\</pre></li>
+		</ul>
+		<p>Hinweis: 1Password 4 speichert die agilekeychain-Datei nicht standardmäßig ab. Dies muss in der 'Sync'-Option der Einstellungen gesetzt werden.</p>
+	</div>
+	
+	<h1 class="toggle"><span>▷</span>iTunes Import unter Windows</h1>
+	<div class="toggle">
+		<p>Mit der PC-Version von iTunes ist es nicht möglich, den Schlüsselbund direkt zu importieren. Aus diesem Grund muss der Schlüsselbund vorher in ein ZIP-Archiv gepackt werden, damit der Import funktioniert.</p>
+	</div>
+</body>
+</html>

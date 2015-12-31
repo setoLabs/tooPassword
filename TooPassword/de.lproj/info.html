@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<link href="style.css" rel="stylesheet" type="text/css"/>
+	<script src="jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		$(document).ready(function() {
+			$('a').bind('touchstart', function () {
+				$(this).addClass('touched');
+			});
+			$('a').bind('touchend', function () {
+				$(this).removeClass('touched');
+			});
+		});
+		/* ]]> */
+	</script>
+</head>
+<body>
+	<h1>Über tooPassword</h1>
+	<p>tooPassword bietet einen reinen Lesezugriff auf 1Password-Schlüsselbund-Dateien und führt niemals Schreiboperationen auf diesen Dateien durch. Kryptographische Operationen benutzen die iOS Standard-Bibliotheken (CommonCrypto), um die aktuellsten Sicherheitsstandards zu gewährleisten.</p>
+	
+	<h1>Datenschutzrichtlinie</h1>
+	<p>tooPassword sammelt keine personenbezogene Daten. Bei der Nutzung von Cloud-Synchronisationsdiensten beachten Sie bitte die jeweiligen Datenschutzrichtlinien der Anbieter.</p>
+	
+	<h1>Entwickelt von setoLabs GbR</h1>
+	<ul>
+		<li><a href="https://twitter.com/MuscleRumble">Tobias Hagemann, @MuscleRumble</a></li>
+		<li><a href="https://twitter.com/totalvoidness">Sebastian Stenzel, @totalvoidness</a></li>
+	</ul>
+	
+	<h1>Folge tooPassword</h1>
+	<ul>
+		<li><a href="https://www.facebook.com/tooPassword">Facebook</a></li>
+		<li><a href="https://twitter.com/tooPassword">Twitter</a></li>
+	</ul>
+	
+	<h1>Frameworks und Bibliotheken</h1>
+	<ul>
+		<li><a href="https://github.com/ckteebe/CustomBadge">CustomBadge von Sascha Paulus</a></li>
+		<li><a href="https://www.dropbox.com/developers/core/sdk">Dropbox SDK von Dropbox, Inc</a></li>
+		<li><a href="https://github.com/nicklockwood/FXKeychain">FXKeychain von Nick Lockwood</a></li>
+		<li><a href="https://github.com/nicklockwood/iRate">iRate von Nick Lockwood</a></li>
+		<li><a href="http://jquery.com/">jQuery von jQuery Foundation, Inc.</a></li>
+		<li><a href="http://ricostacruz.com/jquery.transit/">jQuery Transit von Rico Sta Cruz</a></li>
+		<li><a href="https://github.com/billgarrison/SORelativeDateTransformer">SORelativeDateTransformer von William Garrison</a></li>
+		<li><a href="https://github.com/samvermette/SVProgressHUD">SVProgressHUD von Sam Vermette</a></li>
+		<li><a href="https://github.com/samvermette/SVPullToRefresh">SVPullToRefresh von Sam Vermette</a></li>
+	</ul>
+	
+	<h1>Danksagung</h1>
+	<p>Übersetzungen von: Fleur Haagen, Katharina Hagemann, Thomas Hagemann, Salli Itänen, Yana Khalitova, Karen Stenzel und Coralie Tietze.</p>
+	<p>Danke an unsere Beta-Tester: Rafael Mrosek, Francesco Luciano, Thomas Gasber, Gennady Klemin, Alexander Schneider und Julian Zimmermann.</p>
+	
+	<h1>Haftungsausschluss</h1>
+	<p>DIE SOFTWARE WIRD OHNE JEDE AUSDRÜCKLICHE ODER IMPLIZIERTE GARANTIE BEREITGESTELLT, EINSCHLIESSLICH DER GARANTIE ZUR BENUTZUNG FÜR DEN VORGESEHENEN ODER EINEM BESTIMMTEN ZWECK SOWIE JEGLICHER RECHTSVERLETZUNG, JEDOCH NICHT DARAUF BESCHRÄNKT. IN KEINEM FALL SIND DIE AUTOREN ODER COPYRIGHTINHABER FÜR JEGLICHEN SCHADEN ODER SONSTIGE ANSPRÜCHE HAFTBAR ZU MACHEN, OB INFOLGE DER ERFÜLLUNG EINES VERTRAGES, EINES DELIKTES ODER ANDERS IM ZUSAMMENHANG MIT DER SOFTWARE ODER SONSTIGER VERWENDUNG DER SOFTWARE ENTSTANDEN.</p>
+	
+	<h1>Copyright &amp; Rechtlicher Hinweis</h1>
+	<p>© 2015 toopassword.com – alle Rechte vorbehalten</p>
+	<p>1Password ist eine Handelsmarke der AgileBits Inc., registriert in den USA und anderen Ländern. tooPassword steht in keinerlei Verbindung mit AgileBits Inc. oder der Marke 1Password.</p>
+</body>
+</html>

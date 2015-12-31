@@ -1,0 +1,149 @@
+/* email */
+"email.feedback.body" = "Hello Tobias, hello Sebastian,\n\n\n";
+
+/* keychain import controller */
+"keychainSync.keychainImportController.footerNoKeychainInFolder" = "Tässä kansiossa ei ole avainnippua";
+"keychainSync.keychainImportController.progressHudStatusCanceled" = "Peruutettu";
+"keychainSync.keychainImportController.progressHudStatusError" = "Epäonnistui virheen vuoksi";
+"keychainSync.keychainImportController.progressHudStatusLoading" = "Lataa...";
+"keychainSync.keychainImportController.progressHudStatusSuccess" = "Onnistui!";
+"keychainSync.keychainImportController.title" = "Tuo";
+"keychainSync.keychainImportController.dropboxSignOut" = "Kirjaudu ulos";
+
+/* notifications */
+"notifications.clipboardGotCleared" = "Leikepöytä on tyhjennetty.";
+
+/* alerts */
+"ui.alerts.title" = "Hupsista!";
+"ui.alerts.dropboxNotReachableAlert.message" = "Kohde Dropbox ei näytä olevan saatavilla. Pahoittelut!";
+
+/* common texts */
+"ui.common.back" = "Takaisin";
+"ui.common.cancel" = "Peruuta";
+"ui.common.dismiss" = "Ohita";
+"ui.common.done" = "Valmis";
+"ui.common.signOut" = "Kirjaudu ulos";
+"ui.common.yes" = "Kyllä";
+
+/* settingsScreen WebDAV */
+"ui.modalDialogs.settingsWebDAVScreen.title" = "WebDAV";
+
+/* settings search screen */
+"ui.modalDialogs.settingsSearchScreen.title" = "Etsi";
+
+/* settings auto lock screen */
+"ui.modalDialogs.settingsAutoLockScreen.title" = "Automaattilukitus";
+
+/* settings clear clipboard screen */
+"ui.modalDialogs.settingsClearClipboardScreen.title" = "Tyhjennä leikepöytä";
+
+/* settings screen */
+"ui.modalDialogs.settingsScreen.eraseDataConfirm" = "Ainoastaan tooPasswordin data poistetaan. Alkuperäinen 1Password avainnippu jää ennalleen. Haluatko jatkaa?";
+"ui.modalDialogs.settingsScreen.sectionData.eraseData" = "Poista data";
+"ui.modalDialogs.settingsScreen.sectionData.header" = "Data";
+"ui.modalDialogs.settingsScreen.sectionGeneral.header" = "Yleiset";
+"ui.modalDialogs.settingsScreen.sectionGeneral.search" = "Etsi";
+"ui.modalDialogs.settingsScreen.sectionHelp.header" = "Apu";
+"ui.modalDialogs.settingsScreen.sectionHelp.manual" = "Manuaali";
+"ui.modalDialogs.settingsScreen.sectionHelp.information" = "tooPasswordista";
+"ui.modalDialogs.settingsScreen.sectionHelp.supportSite" = "Tukisivu";
+"ui.modalDialogs.settingsScreen.sectionHelp.sendFeedback" = "Lähetä palautetta";
+"ui.modalDialogs.settingsScreen.sectionSecurity.autoLock" = "Automaattilukitus";
+"ui.modalDialogs.settingsScreen.sectionSecurity.clearClipboard" = "Tyhjennä leikepöytä";
+"ui.modalDialogs.settingsScreen.sectionSecurity.concealPasswords" = "Piilota salasana";
+"ui.modalDialogs.settingsScreen.sectionSecurity.lockNow" = "Lukitse heti";
+"ui.modalDialogs.settingsScreen.sectionSecurity.header" = "Turvallisuus";
+"ui.modalDialogs.settingsScreen.sectionSupport.header" = "Avustaa";
+"ui.modalDialogs.settingsScreen.sectionSync.footer" = "Viimeksi tuotu";
+"ui.modalDialogs.settingsScreen.sectionSync.header" = "Synkronointi";
+"ui.modalDialogs.settingsScreen.sectionSync.importFromDropbox" = "Tuo kohteesta Dropbox";
+"ui.modalDialogs.settingsScreen.sectionSync.importFromiTunes" = "Tuo kohteesta iTunes";
+"ui.modalDialogs.settingsScreen.sectionSync.importFromWebDAV" = "Tuo kohteesta WebDAV";
+"ui.modalDialogs.settingsScreen.title" = "Asetukset";
+
+/* settingsScreen WebDAV */
+"ui.modalDialogs.settingsWebDAVScreen.continue" = "Jatka";
+"ui.modalDialogs.settingsWebDAVScreen.url" = "URL";
+"ui.modalDialogs.settingsWebDAVScreen.user" = "Käyttäjänimi";
+"ui.modalDialogs.settingsWebDAVScreen.pass" = "Salasana";
+"ui.modalDialogs.settingsWebDAVScreen.savePass" = "Tallenna salasana";
+"ui.modalDialogs.settingsWebDAVScreen.trustAllSSL" = "Trust All (SSL)";
+
+/* settingsScreen searchMode */
+"ui.modalDialogs.settingsScreen.simpleSearch" = "Yksinkertainen";
+"ui.modalDialogs.settingsScreen.advancedSearch" = "Tarkempi";
+
+/* searchScreen searchMode */
+"ui.modalDialogs.settingsSearchScreen.simpleSearch" = "Yksinkertainen haku (vain otsikot)";
+"ui.modalDialogs.settingsSearchScreen.advancedSearch" = "Tarkempi haku (kokonainen teksti)";
+
+/* settingsScreen autoLockTimeInterval */
+"ui.modalDialogs.settingsScreen.instantAutoLock" = "Heti";
+"ui.modalDialogs.settingsScreen.autoLockAfter60s" = "1 min";
+"ui.modalDialogs.settingsScreen.autoLockAfter120s" = "2 min";
+"ui.modalDialogs.settingsScreen.autoLockAfter300s" = "5 min";
+"ui.modalDialogs.settingsScreen.autoLockAfter600s" = "10 min";
+
+/* clearClipboardScreen timeInterval */
+"ui.modalDialogs.settingsAutoLockScreen.instantAutoLock" = "Heti";
+"ui.modalDialogs.settingsAutoLockScreen.autoLockAfter60s" = "1 minuutti";
+"ui.modalDialogs.settingsAutoLockScreen.autoLockAfter120s" = "2 minuuttia";
+"ui.modalDialogs.settingsAutoLockScreen.autoLockAfter300s" = "5 minuuttia";
+"ui.modalDialogs.settingsAutoLockScreen.autoLockAfter600s" = "10 minuuttia";
+
+/* settingsScreen clearClipboardTimeInterval */
+"ui.modalDialogs.settingsScreen.clearClipboardAfter30s" = "30 s";
+"ui.modalDialogs.settingsScreen.clearClipboardAfter60s" = "1 min";
+"ui.modalDialogs.settingsScreen.clearClipboardAfter120s" = "2 min";
+"ui.modalDialogs.settingsScreen.clearClipboardAfter300s" = "5 min";
+"ui.modalDialogs.settingsScreen.clearClipboardDisabled" = "Ei koskaan";
+
+/* clearClipboardScreen timeInterval */
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardAfter30s" = "30 sekuntia";
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardAfter60s" = "1 minuutti";
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardAfter120s" = "2 minuuttia";
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardAfter300s" = "5 minuuttia";
+"ui.modalDialogs.settingsClearClipboardScreen.clearClipboardDisabled" = "Ei koskaan";
+
+/* unlock screen */
+"ui.modalDialogs.unlockScreen.passwordHint" = "Salasanavihje";
+"ui.modalDialogs.unlockScreen.masterPasswordPlaceholder" = "Pääsalasana";
+"ui.modalDialogs.unlockScreen.unlockButtonTitle" = "Avaa";
+
+/* welcome screen */
+"ui.modalDialogs.welcomeScreen.help" = "Apu";
+"ui.modalDialogs.welcomeScreen.importFromDropbox" = "Tuo kohteesta Dropbox";
+"ui.modalDialogs.welcomeScreen.importFromiTunes" = "Tuo kohteesta iTunes";
+"ui.modalDialogs.welcomeScreen.importFromWebDAV" = "Tuo kohteesta WebDAV";
+
+/* manual screen */
+"ui.modalDialogs.helpScreen.title" = "Manuaali";
+
+/* info screen */
+"ui.modalDialogs.infoScreen.title" = "Versio %@ (%@)";
+
+/* password item detail */
+"ui.details.webforms.password" = "Salasana";
+"ui.details.webforms.username" = "Käyttäjänimi";
+"ui.details.webforms.location" = "Sijainti";
+"ui.details.passwords.password" = "Salasana";
+"ui.details.notes" = "Huomautuksia";
+
+/* action sheet */
+"ui.details.actionsheet.copy" = "Kopioi";
+"ui.details.actionsheet.getfullversion" = "Get Full Version";
+"ui.details.actionsheet.hide" = "Piilota";
+"ui.details.actionsheet.reveal" = "Näytä";
+
+/* voice over */
+"voiceOver.button.refresh.label" = "Päivitä";
+"voiceOver.button.settings.label" = "Asetukset";
+"voiceOver.notification.incorrectPassword" = "Väärä Salasana";
+"voiceOver.notification.keychainUnlocked" = "Avaimenperä auki";
+
+/* error */
+"error.http.notFound" = "Resource not found.";
+"error.http.authFailed" = "Wrong username and/or password.";
+"error.http.httpStatusCode" = "HTTP error %d.";
+"error.http.unsupportedProtocol" = "Server doesn't seem to be a WebDAV server.";
+"error.http.connectionFailed" = "Connection failed.\nPlease check your settings.";
